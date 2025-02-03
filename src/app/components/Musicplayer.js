@@ -59,18 +59,18 @@ const Musicplayer = () => {
         <div className="flex justify-center items-center mt-4 rounded-full animate-spin duration-[3000] m-8 mx-auto">
           <Image 
             src={'/vinyl.png'}
-            width={700}
-            height={600}
+            width={500}
+            height={500}
             alt='Vinyl Record'
           />
         </div>
       )}
       {!playing && (
-        <div className="flex justify-center items-center m-8  rounded-full mx-auto">
+        <div className="flex justify-center items-center m-8 mt-4   rounded-full mx-auto">
           <Image 
             src={'/vinyl.png'}
-            width={700}
-            height={700}
+            width={500}
+            height={500}
             alt='Vinyl Record'
           />
         </div>
